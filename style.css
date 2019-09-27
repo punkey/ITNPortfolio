@@ -3,7 +3,7 @@
     padding: 0;
     font-family: cursive
 }
-header {
+.header {
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(0ec52e38638f730a8acf6d3417ab9547.jpg);
     height: 100vh;
     background-size: cover;
@@ -69,4 +69,42 @@ ul li.active a{
 .btn:hover{
     background-color: #fff;
     color; #000;
+}
+#page1 {
+    background-image: url(2c95f21381011db1bdfdfa06a8467caa.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+}
+.background {
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(0ec52e38638f730a8acf6d3417ab9547.jpg);
+}
+
+.decoration {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.student {
+    border-image: url(2c95f21381011db1bdfdfa06a8467caa.jpg);
+    width: 200px;
+    height: 300px;
+    padding: 1px;
+    border: 1px solid white;
+    display: inline-block
+}
+table {
+    display: inline-block;
+}
+table, td {
+    border: 3px solid white;
+    color:white;    
+}
+#razor {
+    background-image: url(183682.jpg);
+    color: white;
+    text-align: center;
 }
